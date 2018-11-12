@@ -6,6 +6,7 @@ def line(katz_deli)
     katz_deli.each do |person|
     counter +=1
     new_array.push("#{counter}. #{person}")
+    puts string + new_array.join(" ")
 end
 return string + new_array.join(" ")
 
