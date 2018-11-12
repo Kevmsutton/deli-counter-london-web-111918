@@ -8,7 +8,7 @@ def line(katz_deli)
     new_array.push("#{counter}. #{person}")
     
 end
-puts string + new_array.join(" ")
+return puts string + new_array.join(" ")
 else 
     puts "The line is currently empty."
 end
