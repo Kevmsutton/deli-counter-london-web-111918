@@ -6,9 +6,9 @@ def line(katz_deli)
     katz_deli.each do |person|
     counter +=1
     new_array.push("#{counter}. #{person}")
-    puts string + new_array.join(" ")
+    
 end
-
+puts string + new_array.join(" ")
 else 
     puts "The line is currently empty."
 end
