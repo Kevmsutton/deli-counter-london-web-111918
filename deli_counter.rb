@@ -1,6 +1,6 @@
 def line(katz_deli)
   counter = 0
-  string = "The line is currently "
+  string = "The line is currently: "
   new_array = []
   if katz_deli.length > 0
     katz_deli.each do |person|
